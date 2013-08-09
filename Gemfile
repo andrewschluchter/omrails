@@ -4,12 +4,12 @@ ruby '1.9.3'
 gem 'rails', '4.0.0.rc2'
 
 # Use sqlite3 as the database for Active Record
-group :production do
-	gem 'pg'
-end
-group :development, :test do
-    gem	'sqlite3'
-end
+#group :production do
+gem 'pg'
+#end
+#group :development, :test do
+#    gem	'sqlite3'
+#end
 
 #new gem for rails 4.0.0
 gem "rails_12factor"
