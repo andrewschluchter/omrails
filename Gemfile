@@ -5,7 +5,7 @@ gem 'rails', '4.0.0.rc2'
 
 # Use sqlite3 as the database for Active Record
 group :production do
-gem 'pg'
+	gem 'pg'
 end
 group :development, :test do
     gem	'sqlite3'
@@ -16,6 +16,8 @@ gem "rails_12factor"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc2'
+#bootstrap for pretty apps
+gem 'bootstrap-sass', '~>2.2.2.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
