@@ -1,3 +1,18 @@
+/*Remember! Use $ instead of @ when adding in bootstrap objects to scss files
+
+use the to use the "oxygen" font for the whole page
+%baseFonyFamily: Oxygen;
+@import url(http://fonts.googeapis.com/css?family=Oxygen);*/
+
 @import 'bootstrap';
 
 @import 'bootstrap-responsive';
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+		}
+}
