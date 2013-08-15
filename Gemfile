@@ -16,6 +16,7 @@ gem "rails_12factor"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc2'
+
 #bootstrap for pretty apps
 gem 'bootstrap-sass', '~>2.2.2.0'
 
@@ -30,6 +31,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'devise'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
