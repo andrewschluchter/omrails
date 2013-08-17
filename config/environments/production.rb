@@ -80,5 +80,5 @@ Omrails::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #this line is added to allow for users on the live application
-  config.action_mailer.default_url_options = { :host => 'http://schluchter.heroku.com' }
+  config.action_mailer.default_url_options = { :host => 'thelazyflash@gmail.com' }
 end
