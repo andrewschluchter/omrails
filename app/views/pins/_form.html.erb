@@ -1,0 +1,11 @@
+<%= simple_form_for(@pin) do |f| %>
+  <%= f.error_notification %>
+
+  <!-- <div class="inputs"> -->
+    <%= f.input :description, as: :text, input_html: { rows: "5" } %>
+  <!-- </div> -->
+
+  <div class="actions">
+    <%= f.button :submit , class: "btn btn-primary" %>
+  </div>
+<% end %>
