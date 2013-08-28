@@ -1,10 +1,13 @@
 Omrails::Application.routes.draw do
 
+  get "pages/anatophys"
   devise_for :users
 get 'about' => 'pages#about'
 #get "pages/test"
 get 'test' => 'pages#test'
+get 'anatophys' =>  'pages#anatophys'
   resources :pins
+
 
 root :to =>'pages#home'
 

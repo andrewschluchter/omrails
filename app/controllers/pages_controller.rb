@@ -7,5 +7,8 @@ class PagesController < ApplicationController
 
   def test
   end
+
+  def anatophys
+  end
   
 end
